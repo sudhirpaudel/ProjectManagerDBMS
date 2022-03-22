@@ -1,0 +1,120 @@
+ Container(
+                margin: const EdgeInsets.symmetric(vertical: 12),
+                color: Colors.black,
+                height: 50,
+                width: double.infinity,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    TextButton.icon(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                MyAppMain(x: 5, id: id, name: name),
+                          ),
+                        );
+                      },
+                      icon: const Icon(
+                        Icons.file_copy,
+                        color: Colors.yellow,
+                      ),
+                      label: const Text(
+                        'Joined Projects',
+                        style: TextStyle(color: Colors.yellow, fontSize: 24),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+               Container(
+                margin: const EdgeInsets.symmetric(vertical: 12),
+                color: Colors.black,
+                height: 50,
+                width: double.infinity,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    TextButton.icon(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                MyAppMain(x: 1, id: id, name: name),
+                          ),
+                        );
+                      },
+                      icon: const Icon(
+                        Icons.menu,
+                        color: Colors.yellow,
+                      ),
+                      label: const Text(
+                        'All Projects',
+                        style: TextStyle(color: Colors.yellow, fontSize: 24),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                margin: const EdgeInsets.symmetric(vertical: 12),
+                color: Colors.black,
+                height: 50,
+                width: double.infinity,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    TextButton.icon(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                MyAppMain(x: 3, id: id, name: name),
+                          ),
+                        );
+                      },
+                      icon: const Icon(
+                        Icons.add_outlined,
+                        color: Colors.yellow,
+                      ),
+                      label: const Text(
+                        'Join Projects',
+                        style: TextStyle(color: Colors.yellow, fontSize: 24),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                margin: const EdgeInsets.symmetric(vertical: 12),
+                color: Colors.black,
+                height: 50,
+                width: double.infinity,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    TextButton.icon(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                MyAppMain(x: 4, id: id, name: name),
+                          ),
+                        );
+                      },
+                      icon: const Icon(
+                        Icons.admin_panel_settings,
+                        color: Colors.blue,
+                      ),
+                      label: const Text(
+                        'Admin',
+                        style: TextStyle(color: Colors.blue, fontSize: 20),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
